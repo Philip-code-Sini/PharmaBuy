@@ -1,0 +1,21 @@
+{
+  "name": "pharma-buy",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js-e js,hbs"
+  },
+  "author": "Sini",
+  "license": "ISC",
+  "description": "PharmaBuy | Responsive Pharmacy Platform.",
+  "dependencies": {
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
